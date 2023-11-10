@@ -1,18 +1,6 @@
-package Creational;
+package Creational.BuilderPattern;
 
-public class BuilderPattern {
-    public static void main(String[] args) {
-        Student std = Student.getBuilder()
-                .setName("Mani")
-                .setAge(25)
-                .setGradYear(2019)
-                .build();
-
-        System.out.println(std);
-    }
-}
-
-class Student {
+public class Student {
     private String name;
     private int age;
     private int gradYear;

@@ -1,6 +1,6 @@
 package Creational.Prototype;
 
-public class Client {
+public class PrototypeMain {
 
     public static void registerStudentTemplate(StudentRegistry studentRegistry) {
         Student student = new Student();
@@ -13,7 +13,5 @@ public class Client {
         registerStudentTemplate(studentRegistry);
 
         Student student = studentRegistry.get("oct22Batch").clone();
-
-
     }
 }

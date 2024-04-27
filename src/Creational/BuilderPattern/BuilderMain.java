@@ -1,6 +1,6 @@
 package Creational.BuilderPattern;
 
-public class BuilderPattern {
+public class BuilderMain {
     public static void main(String[] args) {
         Student std = Student.getBuilder()
                 .setName("Mani")
